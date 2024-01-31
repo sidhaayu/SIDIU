@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(146, 118, 172);
+}
+
+h1 {
+    font-size: 50px;
+    color: bisque;
+}
+
+h2 {
+    font-size: 30px;
+    color: beige;
+}
+
+img {
+    background-color: black;
+}
+
+.bts {
+    margin: 5%;
+}
+.seven {
+    margin: 5%;
+}.skz {
+    margin: 5%;
+}.ehy {
+    margin: 5%;
+}.exo {
+    margin: 5%;
+}
+img{
+    transition: opacity 0.3 ease-in;
+}
+img:hover{
+    opacity: 0.5;
+}

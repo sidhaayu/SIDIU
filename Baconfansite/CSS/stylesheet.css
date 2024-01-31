@@ -1,0 +1,28 @@
+/* body{
+background-color: blueviolet;
+} this is the syntax used to colour the background of the whole page */
+                    /* tag selectors */
+h1{
+    font-size: 50px;
+    color: red;
+}
+
+                    /* class selectors */
+.bacon{
+    background-color: green;
+}  
+/* this is a class here the class element will be only  edited   */
+.broccoli{
+    background-color: red;
+} 
+/*these are basically the names given to the tags this can be used in the above class directly classes can be used multiple times         */
+.circular {
+    border-radius: 100%;
+}   
+/* ids are unique start with #      */
+#heading{
+font-size: 50px;
+}
+img:hover{
+    background-color: gold;
+}
