@@ -55,6 +55,8 @@ Copy code
 
 .box:hover {
     background-color: #ccc;
+    fontsize:2.01rem
 }
 License:
 This project is licensed under the MIT License - see the LICENSE file for details# SIDIU
+
