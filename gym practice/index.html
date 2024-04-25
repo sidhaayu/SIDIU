@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GYUTIM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section id="main">
+
+    <!--  navbar: class for navigation bar
+      navbar-expand-lg: expands navbar on desktop viewport lg is the brake point for navigation bar to expand
+      navbar-light: the color theme will be light
+      bg-light: for light background  -->
+    <nav class="navbar navbar-expand-lg navbar-bg-light navbar-bottom-border">
+
+      <!-- container-fluid: takes 100% width of the current viewport -->
+      <div class="container-fluid">
+
+        <!-- navbar-brand: the brand name or logo of the project
+      a tag: navbar-brand as link
+      span tag: navabr-brand as heading -->
+        <a style="color: #fff;" class="logo navbar-brand" href="#">Gu<span style="color: orangered;">tim.</span></a>
+
+        <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- collapse navbar-collapse: for grouping and hiding navbar contents for responsive modes(using button) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <!-- .navbar-nav for a full-height navigation
+          ml-auto:margin-left auto to push the links ont he right side-->
+          <ul class="navbar-nav ms-auto">
+
+            <!-- nav-item: items in navigation bar -->
+            <!-- nav-link: items as links
+            active: to indicate the current page. usually the home page.
+            aria-current: to identify/highlight the current item in a set of items. -->
+
+            <li class="nav-item">
+              <a class=" nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class=" nav-link" href="#">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <button class="signupbtn btn btn-outline-danger custom-btn">Sign Up Today</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <h3>FITNESS ELEMENTS</h3>
+      <h1>BMI CALCULATOR</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid mollitia, dignissimos fuga</p>
+      <button class="readmorebtn btn btn-outline-light btn-lg">Read More</button>
+    </div>
+
+  </section>
+
+  <section id="cards">
+    <div class="container-fluid">
+      <h1 class="s2head">MEMBERSHIP PLANS</h1>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card shadow bg-body-tertiary rounded">
+            <div class="card-header">
+              <h3>BASIC</h3>
+            </div>
+
+            <div class="card-body">
+              <h2><span style="color: orangered; font-size: 50px;">$17 </span>/01 mo</h2>
+              <p>Duration</p>
+              <h2>12 months</h2>
+              <p>Personal trainer</p>
+              <h2>01 person</h2>
+              <p>Amount of people</p>
+              <h2>01 person</h2>
+              <p>Number of visits</p>
+              <h2>Unlimited</h2>
+              <button type="button" class="crdbtn btn btn-outline-dark btn-lg ">Start Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>STANDARD</h3>
+            </div>
+
+            <div class="card-body">
+              <h2><span style="color: orangered; font-size: 50px;">$57 </span>/ 01 mo</h2>
+              <p>Duration</p>
+              <h2>12 months</h2>
+              <p>Personal trainer</p>
+              <h2>01 person</h2>
+              <p>Amount of people</p>
+              <h2>01 person</h2>
+              <p>Number of visits</p>
+              <h2>Unlimited</h2>
+              <button type="button" class="crdbtn btn btn-outline-dark btn-lg">Start Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>PREMIUM</h3>
+            </div>
+            <div class="card-body">
+              <h2><span style="color: orangered; font-size: 50px;">$98 </span>/01 mo</h2>
+              <p>Duration</p>
+              <h2>12 months</h2>
+              <p>Personal trainer</p>
+              <h2>01 person</h2>
+              <p>Amount of people</p>
+              <h2>01 person</h2>
+              <p>Number of visits</p>
+              <h2>Unlimited</h2>
+              <button type="button" class="crdbtn btn btn-outline-dark btn-lg">Start Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    body {
+      color: #fff;
+      margin: 0;
+
+    }
+
+    .container-fluid {
+      padding: 0% 6%;
+    }
+
+    #main {
+      background-image: url("img/gym.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-color: rgba(52, 50, 50, 0.216);
+      background-blend-mode: overlay;
+
+    }
+
+
+    .navbar-bottom-border {
+      border-bottom: 1px solid #7c7878;
+    }
+
+    .navbar-brand {
+      font-size: 35px;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+    }
+
+
+    .nav-item {
+      padding: 10px 10px;
+    }
+
+    .nav-link {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .nav-link:hover {
+      color: orangered;
+    }
+
+
+    /* Your custom styles here */
+    .signupbtn {
+      color: white;
+      background-color: transparent;
+      border: 2px solid transparent;
+      border-image: linear-gradient(to right, red, orange) 1;
+      border-radius: 0;
+      padding: 7px 30px;
+      font-size: 1rem;
+      transition: border-image 0.5s;
+      transition: background 0.3s, transform 0.2s;
+      margin-left: 10px;
+    }
+
+    .signupbtn:hover {
+      background-image: linear-gradient(to right, red, orange);
+      background-color: transparent;
+      tram: scale(1.05);
+    }
+
+    .signupbtn:active {
+      background-color: transparent !important;
+    }
+
+
+    .content {
+      /* Default padding */
+      padding: 50px;
+    }
+
+    @media screen and (min-width: 700px) {
+      .content {
+        /* Apply padding if viewport width is more than 700px */
+        padding-top: 250px;
+      }
+    }
+
+
+    .content h1 {
+      color: #fff;
+      font-size: 60px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+
+    .content h3 {
+      color: orangered;
+      font-size: 17px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      padding-bottom: 20px;
+
+    }
+
+    .content p {
+      font-size: 17px;
+      line-height: 1.7;
+      font-family: "Poppins", sans-serif;
+      padding-bottom: 50px;
+
+    }
+
+    .readmorebtn {
+      background-image: linear-gradient(to right, red, orange);
+      color: white;
+      border: none;
+      /* You can adjust padding, font-size, etc. to fit your design */
+      padding: 7px 30px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-radius: 0;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .readmorebtn:hover {
+      color: #fff;
+      transform: scale(1.05);
+
+    }
+
+    .readmorebtn:active {
+      color: #fff !important;
+    }
+
+    #cards {
+      margin: 20px 20px;
+      padding: 50px 50px;
+    }
+
+    .s2head {
+      font-size: 50px;
+      text-align: center;
+      color: #000;
+      padding: 20px;
+    }
+
+
+
+    .card {
+      border-radius: 0 0 0 0;
+      text-align: center;
+      margin: 20px;
+    }
+
+    .card-header {
+      border-radius: 0 0 0 0;
+      /* Setting border radius for individual corners */
+      background-image: linear-gradient(to right, red, orange);
+      border: none;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card-header h3 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .card-body h2 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .crdbtn {
+      color: #000;
+      background-color: transparent;
+      border: 3px solid transparent;
+      border-image: linear-gradient(to right, red, orange) 1;
+      border-radius: 0;
+      padding: 10px 40px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: border-image 0.5s;
+      transition: background 0.3s, transform 0.2s;
+      margin: 20px;
+    }
+
+    .crdbtn:hover {
+      background-image: linear-gradient(to right, red, orange);
+      background-color: transparent;
+      transform: scale(1.05);
+    }
+
+    .crdbtn:active
+    {
+    background-color: transparent !important;
+    }
+  </style>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
